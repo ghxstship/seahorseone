@@ -126,21 +126,6 @@ export default function HeroSection({ onNavigate }: HeroSectionProps) {
           ))}
         </div>
       </div>
-      
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <span 
-          className="text-[9px] tracking-[0.3em] font-mono"
-          style={{ color: colors.biolumeTeal, opacity: 0.5 }}
-        >
-          SCROLL
-        </span>
-        <ChevronDown 
-          size={20} 
-          style={{ color: colors.biolumeTeal, opacity: 0.5 }}
-          className="animate-bounce"
-        />
-      </div>
     </section>
   );
 }

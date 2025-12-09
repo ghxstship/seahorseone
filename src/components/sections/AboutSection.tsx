@@ -23,7 +23,7 @@ export default function AboutSection() {
       description: 'We go beyond aesthetics to create experiences that resonate on a deeper level.'
     },
     {
-      title: 'Craft & Precision',
+      title: 'Relentless Precision',
       description: 'Every detail matters. We obsess over the elements others overlook.'
     },
     {

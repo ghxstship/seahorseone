@@ -68,7 +68,7 @@ export default function AboutSection() {
                 className="text-lg leading-relaxed"
                 style={{ color: colors.coralBone, opacity: 0.8 }}
               >
-                Fvthom Production Studios is an experiential design and production house 
+                FVTHOM Production Studios is an experiential design and production house 
                 specializing in <span style={{ color: colors.biolumeTeal }}>immersive entertainment</span>, 
                 experiential marketing, and creative multimedia.
               </p>

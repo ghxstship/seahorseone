@@ -109,7 +109,7 @@ export default function Footer() {
             className="text-[10px] tracking-wider opacity-30"
             style={{ color: colors.coralBone }}
           >
-            © {new Date().getFullYear()} Fvthom Production Studios. All rights reserved.
+            © {new Date().getFullYear()} FVTHOM Production Studios. All rights reserved.
           </p>
         </div>
       </div>

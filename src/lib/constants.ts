@@ -179,7 +179,7 @@ export const navItems = [
 
 // Company info
 export const companyInfo = {
-  name: 'Fvthom Production Studios',
+  name: 'FVTHOM Production Studios',
   tagline: 'Experiential Design · Immersive Production · Creative Multimedia',
   description: 'We create immersive experiences that transform spaces, captivate audiences, and leave lasting impressions.',
   email: 'discovery@fvthom.pro',

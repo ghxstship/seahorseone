@@ -186,7 +186,7 @@ export const companyInfo = {
   phone: '(407) 885-6011',
   address: 'Tampa, FL',
   social: {
-    instagram: '@fvthomstudios',
+    instagram: '@fvthom.pro',
     linkedin: 'fvthom-production-studios',
     vimeo: 'fvthomstudios'
   }

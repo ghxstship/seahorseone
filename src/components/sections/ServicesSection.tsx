@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Fingerprint, Globe, Camera, Box, Hammer, Lightbulb } from 'lucide-react';
+import { Fingerprint, Globe, Camera, Box, Hammer, Lightbulb, LucideIcon } from 'lucide-react';
 import { colors, services } from '@/lib/constants';
 import BioluminescentField from '@/components/ui/BioluminescentField';
 
-const iconMap: Record<string, React.ComponentType<{ size?: number; style?: React.CSSProperties }>> = {
+const iconMap: Record<string, LucideIcon> = {
   Fingerprint,
   Globe,
   Camera,

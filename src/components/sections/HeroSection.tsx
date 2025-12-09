@@ -53,7 +53,7 @@ export default function HeroSection({ onNavigate }: HeroSectionProps) {
           className={`text-6xl md:text-8xl lg:text-9xl tracking-[0.15em] font-light leading-none mb-4 transition-all duration-1000 delay-600 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           style={{ color: colors.coralBone }}
         >
-          FATHOM
+          FVTHOM
         </h1>
         
         <p 

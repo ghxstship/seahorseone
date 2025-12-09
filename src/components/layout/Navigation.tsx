@@ -41,7 +41,7 @@ export default function Navigation({ onNavigate }: NavigationProps) {
               className="text-2xl tracking-[0.15em] font-light block"
               style={{ color: colors.biolumeTeal }}
             >
-              FATHOM
+              FVTHOM
             </span>
             <span 
               className="text-[8px] tracking-[0.22em] opacity-50 block"

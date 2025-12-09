@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Fathom Production Studios | Experiential Design & Production',
-  description: 'Fathom Production Studios is an experiential design and production house specializing in immersive entertainment, experiential marketing, and creative multimedia.',
+  title: 'Fvthom Production Studios | Experiential Design & Production',
+  description: 'Fvthom Production Studios is an experiential design and production house specializing in immersive entertainment, experiential marketing, and creative multimedia.',
   keywords: ['experiential design', 'production studio', 'immersive entertainment', 'experiential marketing', 'creative multimedia', 'brand activation', 'event production'],
-  authors: [{ name: 'Fathom Production Studios' }],
+  authors: [{ name: 'Fvthom Production Studios' }],
   openGraph: {
-    title: 'Fathom Production Studios',
+    title: 'Fvthom Production Studios',
     description: 'We create immersive experiences that transform spaces, captivate audiences, and leave lasting impressions.',
     type: 'website',
   },

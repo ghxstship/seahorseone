@@ -14,7 +14,7 @@ export default function Footer() {
               className="text-2xl tracking-[0.15em] font-light"
               style={{ color: colors.biolumeTeal }}
             >
-              FATHOM
+              FVTHOM
             </p>
             <p 
               className="text-[8px] tracking-[0.22em] opacity-50"
@@ -107,7 +107,7 @@ export default function Footer() {
             className="text-[10px] tracking-wider opacity-30"
             style={{ color: colors.coralBone }}
           >
-            © {new Date().getFullYear()} Fathom Production Studios. All rights reserved.
+            © {new Date().getFullYear()} Fvthom Production Studios. All rights reserved.
           </p>
         </div>
       </div>

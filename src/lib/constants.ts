@@ -179,15 +179,15 @@ export const navItems = [
 
 // Company info
 export const companyInfo = {
-  name: 'Fathom Production Studios',
+  name: 'Fvthom Production Studios',
   tagline: 'Experiential Design · Immersive Production · Creative Multimedia',
   description: 'We create immersive experiences that transform spaces, captivate audiences, and leave lasting impressions.',
-  email: 'discovery@fathom.pro',
+  email: 'discovery@fvthom.pro',
   phone: '(407) 885-6011',
   address: 'Tampa, FL',
   social: {
-    instagram: '@fathomstudios',
-    linkedin: 'fathom-production-studios',
-    vimeo: 'fathomstudios'
+    instagram: '@fvthomstudios',
+    linkedin: 'fvthom-production-studios',
+    vimeo: 'fvthomstudios'
   }
 };

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-azure: #0A4D68;
+  --twilight-indigo: #0D2137;
+  --midnight-abyss: #080B12;
+  --hadal-void: #030508;
+  --biolume-teal: #00D4AA;
+  --phosphor-cyan: #7FEFEF;
+  --coral-bone: #E8DED0;
+  --abyssal-orange: #FF6B35;
+  --kelp-gold: #C9A227;
+  --depth-violet: #6B5B95;
+  --squid-pink: #E8A0BF;
+  --sturgeon-silver: #8FA3AD;
+  --pressure-blue: #1E3A5F;
+  --manta-slate: #2D3E4A;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 212, 170, 0.4) #030508;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #030508;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 170, 0.4);
+}
+
+::selection {
+  background: rgba(0, 212, 170, 0.4);
+  color: #E8DED0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #030508;
+  color: #E8DED0;
+  overflow-x: hidden;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00D4AA !important;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #E8DED0;
+  opacity: 0.3;
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  25% { transform: translateY(-30px) translateX(10px); }
+  50% { transform: translateY(-15px) translateX(-15px); }
+  75% { transform: translateY(-40px) translateX(5px); }
+}
+
+@keyframes bubble {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(-10px); opacity: 1; }
+}
+
+@keyframes sonarPing {
+  0% { transform: scale(0.5); opacity: 0.5; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.5; box-shadow: 0 0 20px rgba(0, 212, 170, 0.2); }
+  50% { opacity: 1; box-shadow: 0 0 40px rgba(0, 212, 170, 0.4); }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Utility classes */
+.animate-float {
+  animation: float 20s ease-in-out infinite;
+}
+
+.animate-bubble {
+  animation: bubble 2s ease-in-out infinite;
+}
+
+.animate-sonar-ping {
+  animation: sonarPing 3s ease-out infinite;
+}
+
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.5s ease forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(3, 5, 8, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(135deg, #00D4AA, #7FEFEF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hover lift effect */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(0, 212, 170, 0.15);
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+  
+  /* Ensure minimum tap target size for mobile */
+  button, a {
+    min-height: 44px;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
